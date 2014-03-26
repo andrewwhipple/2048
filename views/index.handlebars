@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Welcome To 2048</title>
+
+  <link href="css/style/main.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+</head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <h1 class="title">Welcome To 2048</h1>
+      <div class="scores-container">
+        <div class="score-container">0</div>
+        <div class="best-container">0</div>
+      </div>
+    </div>
+
+    <div class="above-game">
+      <p class="game-intro">Search randomly through the void for the <strong>Cecil tile</strong></p>
+      <a class="restart-button">New Game</a>
+    </div>
+
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+	        <a class="keep-playing-button">Keep going</a>
+          <a class="retry-button">Try again</a>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container">
+
+      </div>
+    </div>
+	
+
+    <p class="game-explanation">
+      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same image touch, they <strong>merge into one!</strong>
+    </p>
+    <hr>
+    <p>
+    </p>
+    <hr>
+    <p>
+    Plucked from the dead corpse of <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a> Recounted from the nightmares of  <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a>
+	<br>
+	Featuring the lovely art work of these people: 
+	<li><a href="http://heyitsjono.deviantart.com/art/Welcome-to-Night-Vale-GIF-390172610">HeyItsJono</a></li>
+	<li><a href="http://jackie-lyns.tumblr.com/post/59056382631/i-couldnt-resist-drawing-night-vales-favorite">Jackie-Lyn</a></li>
+	<li><a href="http://cecilost.tumblr.com/post/69191947351/vote-for-the-faceless-old-woman-that-lives-in-your">cecilost</a></li>
+	<li><a href="http://shibert.tumblr.com/post/56414806640/got-a-couple-of-requests-for-the-apache-tracker">shibert</a></li>
+	<li><a href="http://lindbloem.deviantart.com/art/Old-Woman-Josie-and-Her-Angels-387471451">lindbloem</a></li>
+	<li><a href="http://nardacci.tumblr.com/post/65762079171/megan-loves-computer-computer-simulates-love-for">nardacci</a></li>
+	<li><a href="http://steammmpunk.tumblr.com/post/57496310743/welcome-to-night-vale-the-man-in-the-tan-jacket">steammmpunk</a></li>
+	<li><a href="http://www.pinterest.com/pin/171488698285259027/">Unknown</a></li>
+	<li><a href="http://kurzz.tumblr.com/post/55367679592/shouts-really-loudly-about-welcome-to-night-vale">kurzz</a></li>
+	<li><a href="http://sashkash.tumblr.com/post/57217594747">sashkash</a></li>
+		
+		
+		
+    </p>
+  </div>
+
+  <script src="js/bind_polyfill.js"></script>
+  <script src="js/classlist_polyfill.js"></script>
+  <script src="js/animframe_polyfill.js"></script>
+  <script src="js/keyboard_input_manager.js"></script>
+  <script src="js/html_actuator.js"></script>
+  <script src="js/grid.js"></script>
+  <script src="js/tile.js"></script>
+  <script src="js/local_storage_manager.js"></script>
+  <script src="js/game_manager.js"></script>
+  <script src="js/application.js"></script>
+</body>
+</html>
+
